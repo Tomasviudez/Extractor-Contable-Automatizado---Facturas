@@ -1,0 +1,23 @@
+# ==============================================================================
+# Dependencias locales para el sistema de Data Entry Contable con Streamlit y CSV
+# 100% Local - Sin Base de Datos Externa ni APIs en la nube
+# ==============================================================================
+
+# Framework de interfaz web interactiva
+streamlit>=1.35.0, <2.0.0
+
+# Extracción de texto desde archivos PDF nativos (rápido, sin dependencias externas)
+pypdf>=4.2.0, <5.0.0
+
+# OCR local para comprobantes en formato imagen (PNG, JPG, JPEG)
+# Requiere el binario tesseract instalado en el sistema operativo
+pytesseract>=0.3.10, <1.0.0
+
+# Procesamiento y manipulación de imágenes para alimentar Tesseract
+Pillow>=10.3.0, <11.0.0
+
+# Manejo seguro de variables de entorno locales (opcional para rutas de archivo)
+python-dotenv>=1.0.1, <2.0.0
+
+# Manejo de datos y tablas estructuradas
+pandas>=2.2.0, <3.0.0
